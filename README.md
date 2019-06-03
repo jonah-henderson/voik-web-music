@@ -1,29 +1,17 @@
-# music
+# music.voik.xyz
 
-## Project setup
-```
-npm install
-```
+This is a minimal page built to showcase tracks that I'm currently working on.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+It's built on Vue and the HTML5 <audio> element, and is fully responsive.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Development
 
-### Run your tests
-```
-npm run test
-```
+Run `npm run serve` to start the Vue development server.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Building
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Run `npm run build` to output a bundled distribution suitable for serving to `./dist/`
+
+## Serving
+
+`./dist` can be served with any HTTP server, e.g. `cd dist/; python3 -m http.server`
